@@ -25,7 +25,7 @@ import android.view.ViewGroup;
 import org.dslul.openboard.inputmethod.keyboard.Key;
 import org.dslul.openboard.inputmethod.keyboard.Keyboard;
 import org.dslul.openboard.inputmethod.keyboard.KeyboardView;
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;

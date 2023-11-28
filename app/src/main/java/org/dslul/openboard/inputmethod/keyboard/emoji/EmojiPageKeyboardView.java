@@ -42,7 +42,7 @@ import org.dslul.openboard.inputmethod.keyboard.MoreKeysKeyboard;
 import org.dslul.openboard.inputmethod.keyboard.MoreKeysKeyboardView;
 import org.dslul.openboard.inputmethod.keyboard.MoreKeysPanel;
 import org.dslul.openboard.inputmethod.keyboard.internal.MoreKeySpec;
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 import org.dslul.openboard.inputmethod.latin.common.CoordinateUtils;
 import org.dslul.openboard.inputmethod.latin.settings.Settings;
 

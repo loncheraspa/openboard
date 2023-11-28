@@ -18,7 +18,7 @@ package org.dslul.openboard.inputmethod.keyboard.internal;
 
 import android.content.res.TypedArray;
 
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 
 /**
  * This class holds parameters to control how a gesture trail is drawn and animated on the screen.

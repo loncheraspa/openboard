@@ -102,6 +102,7 @@ import javax.annotation.Nonnull;
 import static org.dslul.openboard.inputmethod.latin.common.Constants.ImeOption.FORCE_ASCII;
 import static org.dslul.openboard.inputmethod.latin.common.Constants.ImeOption.NO_MICROPHONE;
 import static org.dslul.openboard.inputmethod.latin.common.Constants.ImeOption.NO_MICROPHONE_COMPAT;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 
 /**
  * Input method implementation for Qwerty'ish keyboard.

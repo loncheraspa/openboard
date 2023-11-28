@@ -23,7 +23,7 @@ import android.graphics.Path;
 import android.util.AttributeSet;
 import android.view.View;
 
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 
 import androidx.core.view.ViewCompat;
 

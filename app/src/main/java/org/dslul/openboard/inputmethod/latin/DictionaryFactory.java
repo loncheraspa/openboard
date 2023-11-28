@@ -22,6 +22,7 @@ import android.content.res.AssetFileDescriptor;
 import android.util.Log;
 
 import org.dslul.openboard.inputmethod.latin.utils.DictionaryInfoUtils;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 
 import java.io.File;
 import java.util.ArrayList;

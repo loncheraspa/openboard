@@ -1,7 +1,7 @@
 # Keep classes and methods that have the @UsedForTesting annotation
--keep @org.dslul.openboard.inputmethod.annotations.UsedForTesting class *
+-keep @com.ys.org.dslul.openboard.inputmethod.annotations.UsedForTesting class *
 -keepclassmembers class * {
-    @org.dslul.openboard.inputmethod.annotations.UsedForTesting *;
+    @com.ys.org.dslul.openboard.inputmethod.annotations.UsedForTesting *;
 }
 
 # Keep classes and methods that have the @ExternallyReferenced annotation

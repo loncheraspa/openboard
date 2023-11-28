@@ -19,7 +19,7 @@ package org.dslul.openboard.inputmethod.latin.utils;
 import android.content.Context;
 import android.view.ContextThemeWrapper;
 
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 
 public final class DialogUtils {
     private DialogUtils() {

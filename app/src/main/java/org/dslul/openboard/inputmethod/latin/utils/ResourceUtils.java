@@ -25,7 +25,7 @@ import android.util.Log;
 import android.util.TypedValue;
 
 import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 import org.dslul.openboard.inputmethod.latin.settings.SettingsValues;
 
 import java.util.ArrayList;

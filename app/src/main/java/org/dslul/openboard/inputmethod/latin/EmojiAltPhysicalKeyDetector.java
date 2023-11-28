@@ -29,6 +29,7 @@ import java.util.HashSet;
 import java.util.List;
 
 import javax.annotation.Nonnull;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 
 /**
  * A class for detecting Emoji-Alt physical key.

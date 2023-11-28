@@ -11,7 +11,7 @@ import android.preference.PreferenceFragment
 import android.preference.PreferenceGroup
 import android.util.Log
 import android.view.*
-import org.dslul.openboard.inputmethod.latin.R
+import com.ys.org.dslul.openboard.inputmethod.latin.R
 import org.dslul.openboard.inputmethod.latin.common.LocaleUtils
 import java.util.*
 

@@ -26,7 +26,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 import org.dslul.openboard.inputmethod.latin.common.LocaleUtils;
 
 import java.util.ArrayList;

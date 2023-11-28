@@ -22,7 +22,7 @@ import android.graphics.Paint;
 import android.graphics.Path;
 
 import org.dslul.openboard.inputmethod.keyboard.PointerTracker;
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 import org.dslul.openboard.inputmethod.latin.common.CoordinateUtils;
 
 /**

@@ -27,7 +27,7 @@ import android.view.Gravity;
 import android.widget.TextView;
 
 import org.dslul.openboard.inputmethod.keyboard.Key;
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 
 import java.util.HashSet;
 

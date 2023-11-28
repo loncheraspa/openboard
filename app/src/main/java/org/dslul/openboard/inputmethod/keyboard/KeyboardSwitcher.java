@@ -34,7 +34,7 @@ import org.dslul.openboard.inputmethod.keyboard.internal.KeyboardTextsSet;
 import org.dslul.openboard.inputmethod.latin.InputView;
 import org.dslul.openboard.inputmethod.latin.KeyboardWrapperView;
 import org.dslul.openboard.inputmethod.latin.LatinIME;
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 import org.dslul.openboard.inputmethod.latin.RichInputMethodManager;
 import org.dslul.openboard.inputmethod.latin.WordComposer;
 import org.dslul.openboard.inputmethod.latin.define.ProductionFlags;

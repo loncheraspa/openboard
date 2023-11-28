@@ -9,6 +9,7 @@ import android.widget.FrameLayout
 import android.widget.ImageButton
 import org.dslul.openboard.inputmethod.keyboard.KeyboardActionListener
 import org.dslul.openboard.inputmethod.latin.common.Constants
+import com.ys.org.dslul.openboard.inputmethod.latin.R
 
 class KeyboardWrapperView @JvmOverloads constructor(
         context: Context,

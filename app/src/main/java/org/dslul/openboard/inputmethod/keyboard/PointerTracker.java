@@ -35,7 +35,7 @@ import org.dslul.openboard.inputmethod.keyboard.internal.GestureStrokeRecognitio
 import org.dslul.openboard.inputmethod.keyboard.internal.PointerTrackerQueue;
 import org.dslul.openboard.inputmethod.keyboard.internal.TimerProxy;
 import org.dslul.openboard.inputmethod.keyboard.internal.TypingTimeRecorder;
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 import org.dslul.openboard.inputmethod.latin.common.Constants;
 import org.dslul.openboard.inputmethod.latin.common.CoordinateUtils;
 import org.dslul.openboard.inputmethod.latin.common.InputPointers;

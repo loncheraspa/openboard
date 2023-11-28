@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteException
 import android.database.sqlite.SQLiteOpenHelper
 import android.text.TextUtils
 import android.util.Log
-import org.dslul.openboard.inputmethod.latin.R
+import com.ys.org.dslul.openboard.inputmethod.latin.R
 import org.dslul.openboard.inputmethod.latin.utils.DebugLogUtils
 import java.io.File
 import java.util.*

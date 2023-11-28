@@ -29,7 +29,7 @@ import android.preference.TwoStatePreference;
 
 import org.dslul.openboard.inputmethod.latin.DictionaryDumpBroadcastReceiver;
 import org.dslul.openboard.inputmethod.latin.DictionaryFacilitatorImpl;
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 import org.dslul.openboard.inputmethod.latin.utils.ApplicationUtils;
 import org.dslul.openboard.inputmethod.latin.utils.ResourceUtils;
 

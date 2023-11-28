@@ -11,7 +11,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import org.dslul.openboard.inputmethod.latin.ClipboardHistoryEntry
 import org.dslul.openboard.inputmethod.latin.ClipboardHistoryManager
-import org.dslul.openboard.inputmethod.latin.R
+import com.ys.org.dslul.openboard.inputmethod.latin.R
 
 class ClipboardAdapter(
        val clipboardLayoutParams: ClipboardLayoutParams,

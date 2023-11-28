@@ -25,7 +25,7 @@ import android.graphics.RectF;
 import android.text.TextUtils;
 
 import org.dslul.openboard.inputmethod.keyboard.PointerTracker;
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 import org.dslul.openboard.inputmethod.latin.SuggestedWords;
 import org.dslul.openboard.inputmethod.latin.common.CoordinateUtils;
 

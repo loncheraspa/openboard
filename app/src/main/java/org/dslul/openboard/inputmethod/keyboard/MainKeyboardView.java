@@ -49,7 +49,7 @@ import org.dslul.openboard.inputmethod.keyboard.internal.MoreKeySpec;
 import org.dslul.openboard.inputmethod.keyboard.internal.NonDistinctMultitouchHelper;
 import org.dslul.openboard.inputmethod.keyboard.internal.SlidingKeyInputDrawingPreview;
 import org.dslul.openboard.inputmethod.keyboard.internal.TimerHandler;
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 import org.dslul.openboard.inputmethod.latin.RichInputMethodSubtype;
 import org.dslul.openboard.inputmethod.latin.SuggestedWords;
 import org.dslul.openboard.inputmethod.latin.common.Constants;

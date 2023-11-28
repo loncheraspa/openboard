@@ -28,6 +28,8 @@ import android.util.Log;
 import org.dslul.openboard.inputmethod.dictionarypack.DictionaryPackConstants;
 import org.dslul.openboard.inputmethod.latin.utils.TargetPackageInfoGetterTask;
 
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
+
 /**
  * Receives broadcasts pertaining to dictionary management and takes the appropriate action.
  *

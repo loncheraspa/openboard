@@ -18,7 +18,7 @@ package org.dslul.openboard.inputmethod.latin.settings;
 
 import android.os.Bundle;
 
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 
 /**
  * "Gesture typing preferences" settings sub screen.

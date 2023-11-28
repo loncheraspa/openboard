@@ -18,7 +18,7 @@ package org.dslul.openboard.inputmethod.latin.utils;
 
 import android.content.Context;
 
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 
 /**
  * Helper class to get the metadata URI and the additional ID.

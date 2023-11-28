@@ -19,7 +19,7 @@ package org.dslul.openboard.inputmethod.latin.userdictionary;
 import android.content.Context;
 import android.text.TextUtils;
 
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 import org.dslul.openboard.inputmethod.latin.common.LocaleUtils;
 
 import java.util.Locale;

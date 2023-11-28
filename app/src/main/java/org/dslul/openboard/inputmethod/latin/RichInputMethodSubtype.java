@@ -32,6 +32,7 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 import static org.dslul.openboard.inputmethod.latin.common.Constants.Subtype.KEYBOARD_MODE;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 
 /**
  * Enrichment class for InputMethodSubtype to enable concurrent multi-lingual input.

@@ -6,7 +6,7 @@ import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ListView
-import org.dslul.openboard.inputmethod.latin.R
+import com.ys.org.dslul.openboard.inputmethod.latin.R
 import java.util.*
 
 /**

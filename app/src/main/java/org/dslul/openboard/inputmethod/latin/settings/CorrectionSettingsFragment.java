@@ -25,7 +25,7 @@ import android.content.pm.ResolveInfo;
 import android.os.Bundle;
 import android.preference.Preference;
 
-import org.dslul.openboard.inputmethod.latin.R;
+import com.ys.org.dslul.openboard.inputmethod.latin.R;
 import org.dslul.openboard.inputmethod.latin.userdictionary.UserDictionaryList;
 import org.dslul.openboard.inputmethod.latin.userdictionary.UserDictionarySettings;
 

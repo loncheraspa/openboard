@@ -15,7 +15,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="org.dslul.openboard.inputmethod.latin">
+        package="com.ys.org.dslul.openboard.inputmethod.latin">
 
     <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -49,7 +49,7 @@
             android:extractNativeLibs="false">
 
         <!-- Services -->
-        <service android:name="LatinIME"
+        <service android:name="org.dslul.openboard.inputmethod.latin.LatinIME"
                 android:label="@string/english_ime_name"
                 android:permission="android.permission.BIND_INPUT_METHOD"
                 android:directBootAware="true"
@@ -60,7 +60,7 @@
             <meta-data android:name="android.view.im" android:resource="@xml/method" />
         </service>
 
-        <service android:name=".spellcheck.AndroidSpellCheckerService"
+        <service android:name="org.dslul.openboard.inputmethod.latin.spellcheck.AndroidSpellCheckerService"
                  android:label="@string/spell_checker_service_name"
                  android:permission="android.permission.BIND_TEXT_SERVICE"
                  android:exported="true">
@@ -72,7 +72,7 @@
         </service>
 
         <!-- Activities -->
-        <activity android:name=".setup.SetupActivity"
+        <activity android:name="org.dslul.openboard.inputmethod.latin.setup.SetupActivity"
                 android:theme="@style/platformActivityTheme"
                 android:label="@string/english_ime_name"
                 android:icon="@mipmap/ic_launcher"
@@ -86,13 +86,13 @@
         </activity>
 
         <activity
-            android:name=".permissions.PermissionsActivity"
+            android:name="org.dslul.openboard.inputmethod.latin.permissions.PermissionsActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:exported="false"
             android:taskAffinity="" >
         </activity>
 
-        <activity android:name=".setup.SetupWizardActivity"
+        <activity android:name="org.dslul.openboard.inputmethod.latin.setup.SetupWizardActivity"
                 android:theme="@style/platformActivityTheme"
                 android:label="@string/english_ime_name"
                 android:clearTaskOnLaunch="true"
@@ -102,7 +102,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".settings.SettingsActivity"
+        <activity android:name="org.dslul.openboard.inputmethod.latin.settings.SettingsActivity"
                 android:theme="@style/platformActivityTheme"
                 android:label="@string/ime_settings"
                 android:excludeFromRecents="true"
@@ -112,7 +112,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".spellcheck.SpellCheckerSettingsActivity"
+        <activity android:name="org.dslul.openboard.inputmethod.latin.spellcheck.SpellCheckerSettingsActivity"
                   android:theme="@style/platformActivityTheme"
                   android:label="@string/android_spell_checker_settings"
                 android:exported="true">
@@ -122,11 +122,11 @@
         </activity>
 
         <!-- Unexported activity used for tests. -->
-        <activity android:name=".settings.TestFragmentActivity"
+        <activity android:name="org.dslul.openboard.inputmethod.latin.settings.TestFragmentActivity"
                 android:exported="false" />
 
         <!-- Broadcast receivers -->
-        <receiver android:name="SystemBroadcastReceiver"
+        <receiver android:name="org.dslul.openboard.inputmethod.latin.SystemBroadcastReceiver"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
@@ -136,7 +136,7 @@
             </intent-filter>
         </receiver>
 
-        <receiver android:name="DictionaryPackInstallBroadcastReceiver" android:exported="false">
+        <receiver android:name="org.dslul.openboard.inputmethod.latin.DictionaryPackInstallBroadcastReceiver" android:exported="false">
             <intent-filter>
                 <action android:name="org.dslul.openboard.inputmethod.dictionarypack.aosp.UNKNOWN_CLIENT" />
             </intent-filter>
